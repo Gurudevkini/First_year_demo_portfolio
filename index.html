@@ -12,8 +12,16 @@
         
         /* Header & Profile Image */
         header { text-align: center; padding: 4rem 0; }
-        .profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 4px solid white; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
-        header h1 { margin: 0; font-size: 2.5rem; color: var(--primary); }
+       .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top; /* important */
+    border: 5px solid #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
         header p { font-size: 1.2rem; color: #64748b; }
         
         section { margin-bottom: 3rem; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
@@ -36,11 +44,11 @@
 
 <div class="container">
     <header>
-        <img src="pfp.png" alt="Profile Photo" class="profile-img"> <! Save your photo in this folder and change the src to your filename, e.g. "me.jpg">
+        <img src="github_profilr.jpg" alt="Profile Photo" class="profile-img"> <! Save your photo in this folder and change the src to your filename, e.g. "me.jpg">
         
-        <h1>[Your Name Here]</h1> <! Your name here>
+        <h1>GURUDEV KRISHNANAND KINI</h1> <! Gurudev kini>
         <p>Software Engineer Fresher | Tech Enthusiast</p>
-        <a href="mailto:email@gmail.com" class="btn">Contact Me</a>  <! Replace with your real email here>
+        <a href="mailto:gurudevkinichess@gmail.com" class="btn">Contact Me</a>  <! Replace with your real email here>
     </header>
 
     <section>
@@ -58,7 +66,7 @@
             <span class="skill-tag">Python</span>
             <span class="skill-tag">HTML/CSS</span>
             <span class="skill-tag">Git</span>
-            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">SQL and also postsql</span>
         </div>
     </section>
 
